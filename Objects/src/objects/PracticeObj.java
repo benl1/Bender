@@ -7,6 +7,7 @@ public class PracticeObj {
 	
 	public static void main(String[] args){
 		Gui gui = new Gui();
+		//Ex. Gui gui = new Gui(4);, this would make a screen with 4 bots on it
 		Bot b = gui.getBot(); //gets single bot on screen
 		//Ex. Bot b = gui.getBot(x), if using more than one bot, you can use getBot(int x) to get a reference to the xth bot on the screen (goes left to right) 
 		moveBot(b);
