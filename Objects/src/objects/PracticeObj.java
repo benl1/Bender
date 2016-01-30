@@ -20,7 +20,7 @@ public class PracticeObj {
 		 * Also*, if you choose to have more than one bot, click on whichever bot you want to move and the arrow keys will then control that bot
 		 *  
 		 */
-		
+		int x = 5;
 	}
 	
 	private static void moveBot(Bot b){
