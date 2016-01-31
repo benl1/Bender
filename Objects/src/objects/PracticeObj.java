@@ -11,6 +11,7 @@ public class PracticeObj {
 		Bot b = gui.getBot(); //gets single bot on screen
 		//Ex. Bot b = gui.getBot(x), if using more than one bot, you can use getBot(int x) to get a reference to the xth bot on the screen (goes left to right) 
 		moveBot(b);
+		int x = 5;
 		
 		/*The code above just starts up the gui and creates a single bot.
 		 * The constructor can also take in an integer and it will display however many bots are specified
@@ -20,6 +21,7 @@ public class PracticeObj {
 		 * Also*, if you choose to have more than one bot, click on whichever bot you want to move and the arrow keys will then control that bot
 		 *  
 		 */
+		int j = 6;
 		
 	}
 	
